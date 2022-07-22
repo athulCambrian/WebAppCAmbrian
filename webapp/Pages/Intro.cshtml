@@ -1,0 +1,29 @@
+﻿@page
+@model webapp.Pages.IntroModel
+@{
+
+    ViewData["Title"] = "App Development for Web";
+}
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h3>Athul Babu</h3>
+
+    <form oninput="x.value=parseInt(quantityone.value)+parseInt(quantitytwo.value)">
+        <label for="quantity">Input 1:</label>
+        <input type="number" id="quantityone" name="quantityone" min="1">+
+        <label for="quantity">Input 2:</label>
+        <input type="number" id="quantitytwo" name="quantitytwo" min="1">
+        = <output name="x" for="a b"></output>
+        <input type="submit">
+    </form>
+    @section Intro{
+        <p>This is a paragraph.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    }
+</body>
+</html>
+
